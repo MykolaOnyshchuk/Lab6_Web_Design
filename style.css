@@ -1,0 +1,269 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  font-family: "Roboto", sans-serif;
+}
+header {
+  width: 100%;
+  height: 44vw;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  background-size: cover;
+  background-image: url(./img/layer.png);
+}
+header h1 {
+  color: #fff;
+  font-size: 45px;
+  margin-bottom: -3vw;
+  text-align: center;
+}
+header span {
+  border: 2px solid #fff;
+  padding-left: 5px;
+  align-items: center;
+  margin-right: 10px;
+  margin-bottom: 2.3vw;
+}
+.info_header {
+    margin-top: 100px;
+  background-color: #fff;
+  width: 65vw;
+  height: 20vw;
+  text-align: center;
+}
+.info_header h2 {
+  color: black;
+  margin-top: 4vw;
+  font-weight: bold;
+  font-size: 30px;
+}
+.info_header p {
+  font-size: 25px;
+}
+.info_header button {
+  width: 300px;
+  font-size: 30px;
+  color: #fff;
+  font-weight: bold;
+}
+.tempora {
+  color: gold;
+  border: none;
+}
+
+.Deseru h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 5vw;
+}
+.Deseru span {
+  color: orange;
+}
+.inline {
+  display: inherit;
+}
+.img_content {
+  margin: 50px;
+}
+.img_p {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.nature {
+  width: 100%;
+  background-image: url(./img/nature.png);
+  height: 30vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nature_center {
+  margin-top: 15vw;
+}
+.nature_center input {
+  width: 30vw;
+  border: 3px solid orange;
+  background: none;
+  outline: none;
+  height: 50px;
+  padding-left: 10px;
+  color: #fff;
+}
+.nature_center input::placeholder{
+  color: #fff;
+}
+.btn_center {
+  width: 15 vw;
+  margin-left: 50px;
+  height: 50px;
+  font-size: 25px !important;
+  font-weight: bold !important;
+  color: #fff !important;
+}
+.Voluptat {
+  padding-top: 100px;
+}
+.Voluptat h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.Voluptat span {
+  color: orange;
+}
+.line {
+ margin: 100px 0px 100px 100px;
+  position: relative;
+}
+
+footer {
+  width: 100%;
+  height: 9.5vw;
+  background: linear-gradient(to right, #947d97, #858583);
+}
+footer h1 {
+  margin-top: 70px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+footer span {
+  border: 2px solid #fff;
+  padding-left: 5px;
+  align-items: center;
+  margin-right: 10px;
+}
+.flex {
+  display: flex;
+
+
+}
+
+.flex h3{
+color: gold;
+font-weight: 900;
+font-size: 2vw;
+}
+.flex p{
+  font-weight: 900;
+}
+.q{
+    margin-left: -30px;
+    text-align:  center;
+}
+.w{
+    margin-left: 118px;
+    text-align: center;
+}
+.e{
+    margin-left: 118px;
+    text-align: center;
+}
+.r{
+    margin-left: 118px;
+    text-align: center;
+}
+
+@media (max-width:1200px) {
+    .info_header{
+        width: 90%;
+         
+         
+    }
+
+    .info_header h2{
+        margin-top: 0px;
+        padding-top: 5px;
+    }
+.w{
+  margin-left: 127px;
+}
+.r{
+  margin-left: 127px;
+}
+.e{
+  margin-left: 127px;
+}
+    footer h1{
+        margin: 40px;
+    }
+}
+
+@media (max-width:1000px){
+    .info_header{
+        margin-top: 0px;
+        height: 27vw;
+    }
+
+    .info_header button{
+        margin: -14px;
+    }
+    .inline{
+        margin-left: -10%;
+    }
+    .line_container{
+        margin-right: 35%;
+    }
+    header h1{
+      margin-bottom: 10px;
+
+    }
+}
+@media (max-width:900px) {
+  header h1{
+    font-size: 30px;
+  }
+    .info_header h1{
+font-size: 25px;
+
+    }
+    .info_header p{
+        font-size: 20px;
+    }
+    .info_header h2{
+      padding-top: 19px;
+    }
+    .inline{
+        margin-left: 15%;;
+    }
+    .img_content{
+        margin: 25px;
+    }
+
+    footer h1{
+        margin: 20px;
+    }
+    .img_p{
+      margin-right: -43px;
+    }
+}
+
+@media (max-width:789px) {
+  .line img {
+  width: 600px;
+  }
+  .w{
+    margin-left: 107px;
+  }
+  .r{
+    margin-left: 107px;
+  }
+  .e{
+    margin-left: 107px;
+  }
+      footer h1{
+          margin: 20px;
+      }
+
+      header h1{
+        font-size: 25px;
+      }
+      .info_header h1{
+        font-size: 23px ;
+      }
+        .inline{
+            margin-left: 4%;
+        }
+        
+  }
